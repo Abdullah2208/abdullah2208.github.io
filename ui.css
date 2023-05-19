@@ -1,0 +1,36 @@
+body {
+    background-color: #FFF7F3;
+}
+.header-div {
+    border-bottom: 2px solid black;
+    padding-bottom: 4%;
+}
+
+button {
+    padding: 15px 30px 15px 30px;
+    background-color: #e3fff8;
+    border-radius: 30px;
+    font-size: 20px;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-weight: bold;
+    color:#332e23;
+    margin-left: 70%;
+    margin-top: 4%;
+}
+button:hover {
+    border-radius: 0px;
+    transition-duration: 0.1s;
+}
+.logo {
+    width: 15%;
+    margin-left: 15%;
+    position: absolute;
+    padding-top: 3%;
+}
+h1 {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 850%;
+    color: #332e23;
+    font-weight: bolder;
+    margin-left: 15%; 
+}
