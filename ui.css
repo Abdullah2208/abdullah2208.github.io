@@ -6,15 +6,16 @@ body {
     height: 100%;
 }
 @media screen and (max-width: 576px) {
-    .header-div {
+    div.header-div {
         border: none;
     }
 }
 
-.header-div {
+div.header-div {
     border-bottom: 2px solid black;
     padding-bottom: 4%;
 }
+
 
 button {
     padding: 15px 30px 15px 30px;
