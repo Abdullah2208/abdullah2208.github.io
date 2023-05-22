@@ -7,7 +7,7 @@ body {
 }
 @media screen and (max-width: 576px) {
     div.header-div {
-        border: none;
+        border-bottom: 0px solid black;
     }
 }
 
