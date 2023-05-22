@@ -45,10 +45,10 @@ button:active{
 
 @media screen and (max-width: 576px) {
     .logo {
-        width: 40%;
-        margin-left: 0;
+        width: 45%;
+        margin-left: 5%;
         position: absolute;
-        padding-top: 3%;
+        padding-top: 5%;
     }
 }
 
