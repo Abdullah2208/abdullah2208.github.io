@@ -1,12 +1,12 @@
 body {
-    background-color: #FFF7F3;
+    background-color: #100c08;
     margin: 0;
     padding: 0;
     width: 100%;
     height: 100%;
 }
 div.header {
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid #0a1172;
     padding-bottom: 4%;
 }
 
@@ -16,30 +16,30 @@ div.header {
     }
 }
 .button-gen {
-    background-color: #e3fff8;
-    color:#332e23;
+    background-color: #0a1172;
+    color:white;
     font-weight: bold;
     font-family: 'Plus Jakarta Sans', sans-serif;
 }
 
 button {
-    padding: 15px 30px 15px 30px;
-    border-radius: 30px;
+    padding: 1.5% 3% 1.5% 3%;
+    border-radius: 50em;
     font-size: 20px;
     margin-left: 70%;
     margin-top: 4%;
 }
 @media screen and (max-width: 576px) {
     button {
-        padding: 10px 20px 10px 20px;
-        border-radius: 30px;
+        padding: 2% 4% 2% 4%;
+        border-radius: 30em;
         font-size: 12px;
         margin-left: 70%;
         margin-top: 4%;
     }
     .button-div {
-        padding-top: 4%;
-        margin-right: 10%;
+        padding-top: 3.5%;
+        margin-right: 7%;
     }
 }
 button:hover {
@@ -47,8 +47,8 @@ button:hover {
     transition-duration: 0.1s;
 }
 button:active{
-    background-color: #332e23;
-    color:#e3fff8;
+    background-color: white;
+    color:#0a1172;
 }
 .logo {
     width: 15%;
@@ -66,49 +66,68 @@ button:active{
         padding-top: 3%;
     }
 }
-
-h1 {
+.h1-general {
+    color: white;
     font-family: 'Plus Jakarta Sans', sans-serif;
-    font-size: 11vw;
-    color: #332e23;
     font-weight: bolder;
-    margin-left: 15%;
-    margin-bottom: 0px;
-     
 }
+h1 {
+    font-size: 11vw;
+    margin-left: 15%;
+    margin-bottom: 0px;  
+}
+@media screen and (max-width: 576px) {
+    h1 {
+        margin-left: 5%;
+        font-size: 22vw;
+    }
+}
+
 .intro-general {
     font-family: 'Plus Jakarta Sans', sans-serif;
     text-align: justify;
     line-height: 120%;
-    color:#332e23;
+    color: white;
 }
 .intro {
 
     font-size: 2vw;
-
- 
-
     text-align: center;
     margin-top: 10%;
+    padding-bottom: 7%;
+}
+@media screen and (max-width: 576px) {
+    .intro {
+        font-size: 4vw;
+        padding-top: 5%;
+        padding-bottom: 5%;
+    }
 }
 .green-div-general {
-    background-color: #D8FFB6;
+    background-color: #0a1172;
+    color: white;
     font-family: 'Plus Jakarta Sans', sans-serif;
+    line-height: 1.3em;
+}
+.green-div {
+    margin-left: 13%;
+    margin-right: 55%;
+    padding: 4%;
+    border-radius: 50px;
+    border: 1px solid white; 
 }
 @media screen and (max-width: 576px) {
     .green-div {
-
     margin-left: 0px;
     margin-right: 0px;
-    border-top: 2px solid #332e23;
-    border-bottom: 2px solid #332e23;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
     padding: 40px 30px 50px;
     display: block;
     height:auto;
     cursor:auto;
     }
 }
-@media screen and (min-width: 577px) and (max-width: 768px) {
-    .green-div {
-    }
+.green-content {
+    padding-top: 2%;
 }
