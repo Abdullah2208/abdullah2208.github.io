@@ -16,10 +16,15 @@ button {
     color:#332e23;
     margin-left: 70%;
     margin-top: 4%;
+    min-width: 10%;
 }
 button:hover {
     border-radius: 0px;
     transition-duration: 0.1s;
+}
+button:active{
+    background-color: #332e23;
+    color:#e3fff8;
 }
 .logo {
     width: 15%;
@@ -29,8 +34,46 @@ button:hover {
 }
 h1 {
     font-family: 'Plus Jakarta Sans', sans-serif;
-    font-size: 850%;
+    font-size: 11vw;
     color: #332e23;
     font-weight: bolder;
-    margin-left: 15%; 
+    margin-left: 15%;
+    margin-bottom: 0px;
+     
+}
+.intro-general {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    text-align: justify;
+    line-height: 120%;
+    color:#332e23;
+}
+.intro {
+
+    font-size: 2vw;
+
+ 
+
+    text-align: center;
+    margin-top: 10%;
+}
+.green-div-general {
+    background-color: #D8FFB6;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+@media screen and (max-width: 576px) {
+    .green-div {
+
+    margin-left: 0px;
+    margin-right: 0px;
+    border-top: 2px solid #332e23;
+    border-bottom: 2px solid #332e23;
+    padding: 40px 30px 50px;
+    display: block;
+    height:auto;
+    cursor:auto;
+    }
+}
+@media screen and (min-width: 577px) and (max-width: 768px) {
+    .green-div {
+    }
 }
