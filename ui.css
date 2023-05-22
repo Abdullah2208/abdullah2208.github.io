@@ -12,7 +12,7 @@ div.header {
 
 @media screen and (max-width: 576px) {
     div.header {
-        border-bottom: 0;
+        border-bottom: 0px;
     }
 }
 
