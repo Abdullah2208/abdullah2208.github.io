@@ -116,7 +116,7 @@ h1 {
     border-radius: 50px;
     border: 1px solid white; 
 }
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 767px) {
     .green-div {
     margin-left: 0px;
     margin-right: 0px;
@@ -129,7 +129,7 @@ h1 {
     border-radius: 0;
     }
 }
-@media screen and (min-width: 551px) and (max-width: 1000px) {
+@media screen and (min-width: 768px) and (max-width: 991px) {
     .green-div {
         margin-left: 10%;
         margin-right: 20%;
