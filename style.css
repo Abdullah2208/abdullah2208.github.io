@@ -42,6 +42,16 @@ body {
     margin-left: 50px;
     margin-top: 20px;
 }
+@media screen and (max-width: 767px) {
+    .catchy {
+        color: #100c08;
+        font-size: 170%;
+        line-height: 30px;
+        margin-top: 0px;
+        margin-left: 10%;
+        margin-right: 10% ;
+    }
+} 
 .orange-highlight {
     color: #E97827;
 }
@@ -67,6 +77,13 @@ div.header span {
 div.header span:hover {
     color:#E97827;
 }
+
+@media screen and (max-width: 767px) {
+    div.header {
+        width: 0px;
+        overflow: hidden;
+    }
+}
 .main-buttons button {
     border-radius: 50px;
     padding: 0.7% 2% 0.7% 2%;
@@ -90,4 +107,18 @@ div.header span:hover {
 .main-buttons .view-button:hover {
     background-color: white;
     color: black;
+}
+
+@media screen and (max-width: 767px) {
+    .main-buttons button {
+        padding: 1.5% 3.5% 1.5% 3.5%;
+    }
+    .main-buttons .button-buy {
+        margin-left: 10%;
+        border: 1px solid black;
+    }
+    .main-buttons .view-button {
+        background-color: #100c08;
+        border: 1px solid black;
+    }
 }
