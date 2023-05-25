@@ -57,12 +57,12 @@ body {
 }
 div.header {
     display: table;
-    width: 27%;
+    width: 30%;
     table-layout: fixed;
     padding-top: 1%;
     margin-left: 70%;
     color:white;
-    font-size: 16px;
+    font-size: 85%;
     cursor: pointer;
 }
 div.header #home {
@@ -92,7 +92,7 @@ div.header span:hover {
     color: white;
 }
 .main-buttons .button-buy {
-    margin-left: 7%;
+    margin-left: 4%;
     background-color: #E97827;
     transition: all 0.2s ease-in-out;
 }
@@ -101,7 +101,7 @@ div.header span:hover {
     box-shadow: 0 0 20px #E97827;
 }
 .main-buttons .view-button {
-    margin-left: 2%;
+    margin-left: 0.7%;
     background-color: transparent;
 }
 .main-buttons .view-button:hover {
@@ -111,14 +111,34 @@ div.header span:hover {
 
 @media screen and (max-width: 767px) {
     .main-buttons button {
-        padding: 1.5% 3.5% 1.5% 3.5%;
+        padding: 2% 5% 2% 5%;
     }
     .main-buttons .button-buy {
         margin-left: 10%;
-        border: 1px solid black;
+        border: 2px solid black;
     }
     .main-buttons .view-button {
+        background-color: transparent;
+        color: black;
+        border: 2px solid black;
+        position: absolute;
+        margin-top: 11%;
+        left: 8.9%;
+    }
+    .main-buttons .button-buy:hover {
+        -webkit-box-shadow: none;
+        box-shadow: none;
+    }
+    .main-buttons .button-buy:active {
+        -webkit-box-shadow: 0 0 20px #E97827;
+        box-shadow: 0 0 20px #E97827;
+    }
+    .main-buttons .view-button:hover {
         background-color: #100c08;
-        border: 1px solid black;
+        color: white;
+    }
+    .main-buttons .view-button:active {
+        background-color: white;
+        color: black;
     }
 }
