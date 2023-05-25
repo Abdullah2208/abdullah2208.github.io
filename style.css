@@ -134,11 +134,41 @@ div.header span:hover {
         box-shadow: 0 0 20px #E97827;
     }
     .main-buttons .view-button:hover {
-        background-color: #100c08;
-        color: white;
-    }
-    .main-buttons .view-button:active {
-        background-color: white;
+        background-color: transparent;
         color: black;
     }
+    .main-buttons .view-button:active {
+        background-color: black;
+        color: white;
+    }
+}
+
+.footer {
+    margin-top: 453px;
+    background-color: #303030;
+    color: #ebebeb;
+}
+.contact-info {
+    text-align: center;
+    font-size: 140%;
+    padding-top: 1%;
+}
+.footer table{
+    margin-top: 2.5%;
+    margin-left: 35%;
+    font-size: 13px;
+    padding-bottom: 36px;
+}
+.footer .two {
+    padding-left: 20px;
+}
+.footer .three {
+    padding-left: 120px;
+    padding-top: 10px;
+}
+.footer .four {
+    padding-left: 20px;
+}
+.footer img {
+    width: 15px;
 }
