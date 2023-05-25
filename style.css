@@ -8,9 +8,31 @@ body {
     background-size: 1280px 450px;
     font-family: 'Lato', sans-serif;
 }
+@media screen and (max-width: 767px) {
+    body {
+        background-image: none;
+    }
+}
+.phone-background {
+    width: 0px;
+}
+@media screen and (max-width: 767px) {
+    .phone-background {
+        width: 100%;
+    }
+}
+
 .logo-img {
     width: 10%;
     margin-left: 3%;
+}
+@media screen and (max-width: 767px) {
+    .logo-img {
+        position: absolute;
+        top: 3%;
+        left: 2%;
+        width: 20%;
+    }
 }
 .catchy {
     color: white;
@@ -27,7 +49,7 @@ div.header {
     display: table;
     width: 27%;
     table-layout: fixed;
-    padding-top: 3%;
+    padding-top: 1%;
     margin-left: 70%;
     color:white;
     font-size: 16px;
@@ -55,8 +77,17 @@ div.header span:hover {
 .main-buttons .button-buy {
     margin-left: 7%;
     background-color: #E97827;
+    transition: all 0.2s ease-in-out;
+}
+.main-buttons .button-buy:hover{
+    -webkit-box-shadow: 0 0 20px #E97827;
+    box-shadow: 0 0 20px #E97827;
 }
 .main-buttons .view-button {
     margin-left: 2%;
     background-color: transparent;
+}
+.main-buttons .view-button:hover {
+    background-color: white;
+    color: black;
 }
