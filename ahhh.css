@@ -7,7 +7,7 @@ body {
     font-family: 'Lato', sans-serif;
     background-image: url(https://i.ibb.co/gjDZ4SR/pexels-chevanon-photography-302899.jpg);
     background-repeat: no-repeat;
-    background-size: 1280px 450px;
+    background-size: 100% 450px;
 }
 .phone-background {
     width: 0px;
