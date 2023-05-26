@@ -1,57 +1,29 @@
+
 body {
     margin: 0;
     padding: 0;
     width: 100%;
     height: 100%;
+    font-family: 'Lato', sans-serif;
     background-image: url(https://i.ibb.co/gjDZ4SR/pexels-chevanon-photography-302899.jpg);
     background-repeat: no-repeat;
     background-size: 1280px 450px;
-    font-family: 'Lato', sans-serif;
-}
-@media screen and (max-width: 767px) {
-    body {
-        background-image: none;
-    }
 }
 .phone-background {
     width: 0px;
 }
-@media screen and (max-width: 767px) {
-    .phone-background {
-        width: 100%;
-    }
-}
-
 .logo-img {
     width: 10%;
     margin-left: 3%;
 }
-@media screen and (max-width: 767px) {
-    .logo-img {
-        position: absolute;
-        top: 3%;
-        left: 2%;
-        width: 20%;
-    }
-}
 .catchy {
     color: white;
-    font-size: 34.5px;
+    font-size: 220%;
     font-weight: 400;
     line-height: 41.28px;
-    margin-left: 50px;
-    margin-top: 20px;
+    margin-left: 3%;
+    margin-top: 1%;
 }
-@media screen and (max-width: 767px) {
-    .catchy {
-        color: #100c08;
-        font-size: 170%;
-        line-height: 30px;
-        margin-top: 0px;
-        margin-left: 10%;
-        margin-right: 10% ;
-    }
-} 
 .orange-highlight {
     color: #E97827;
 }
@@ -77,13 +49,6 @@ div.header span {
 div.header span:hover {
     color:#E97827;
 }
-
-@media screen and (max-width: 767px) {
-    div.header {
-        width: 0px;
-        overflow: hidden;
-    }
-}
 .main-buttons button {
     border-radius: 50px;
     padding: 0.7% 2% 0.7% 2%;
@@ -92,7 +57,7 @@ div.header span:hover {
     color: white;
 }
 .main-buttons .button-buy {
-    margin-left: 4%;
+    margin-left: 3%;
     background-color: #E97827;
     transition: all 0.2s ease-in-out;
 }
@@ -108,62 +73,42 @@ div.header span:hover {
     background-color: white;
     color: black;
 }
-
-@media screen and (max-width: 767px) {
-    .main-buttons button {
-        padding: 2% 5% 2% 5%;
-    }
-    .main-buttons .button-buy {
-        margin-left: 10%;
-        border: 2px solid black;
-    }
-    .main-buttons .view-button {
-        background-color: transparent;
-        color: black;
-        border: 2px solid black;
-        position: absolute;
-        margin-top: 11%;
-        left: 8.9%;
-    }
-    .main-buttons .button-buy:hover {
-        -webkit-box-shadow: none;
-        box-shadow: none;
-    }
-    .main-buttons .button-buy:active {
-        -webkit-box-shadow: 0 0 20px #E97827;
-        box-shadow: 0 0 20px #E97827;
-    }
-    .main-buttons .view-button:hover {
-        background-color: transparent;
-        color: black;
-    }
-    .main-buttons .view-button:active {
-        background-color: black;
-        color: white;
-    }
-}
-
-div .spaghetti {
-    width: 508px;
-    height: 302px;
-    position: absolute;
-    top: 90%;
-    margin-left: 16px;
-    transform:rotate(-2.79deg);
-}
-div .steak {
-    width: 274px;
-    position: absolute;
-    left: 78.3%;
-    top: 127.5%;
-    margin-bottom: 0px;
-    padding-bottom: 0px;
-}
-
+.content-div {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 80%;
+  }
+  
+  .content {
+    flex: 1;
+    margin-left: -10%;
+    padding-top: 13%;
+  }
+  .content img {
+    width: 50px;
+  }
+  .sss {
+    text-align: center;
+    padding-top: 5%;
+  }
+  .content th, td {
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+  
+  div .spaghetti {
+    width: 75%;
+    margin-top: 23%;
+    margin-left: 2%;
+    transform: rotate(-2.79deg);
+  }
+  
 .footer {
-    margin-top: 453px;
+    margin-top: 2%;
     background-color: #303030;
     color: #ebebeb;
+    padding-bottom: 0%;
 }
 .contact-info {
     text-align: center;
