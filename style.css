@@ -143,6 +143,23 @@ div.header span:hover {
     }
 }
 
+div .spaghetti {
+    width: 508px;
+    height: 302px;
+    position: absolute;
+    top: 90%;
+    margin-left: 16px;
+    transform:rotate(-2.79deg);
+}
+div .steak {
+    width: 274px;
+    position: absolute;
+    left: 78.3%;
+    top: 127.5%;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
 .footer {
     margin-top: 453px;
     background-color: #303030;
